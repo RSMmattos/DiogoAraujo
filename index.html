@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos e Automação</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-flex">
+            <div class="logo">
+                <img src="imagens/logo.jpeg" alt="Logo" class="logo-img">
+                <span>Projetos e Automação</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#diferenciais">Diferenciais</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="banner-content">
+            <h1>Soluções em Painéis Elétricos e Automação</h1>
+            <p>Projetos, montagem e manutenção com excelência técnica e inovação.</p>
+        </div>
+    </section>
+    <main>
+        <section id="servicos">
+            <h2>Nossos Serviços</h2>
+            <ul class="servicos-lista">
+                <li><i class="fas fa-cogs"></i> Montagem de painéis elétricos industriais</li>
+                <li><i class="fas fa-microchip"></i> Projetos de automação industrial</li>
+                <li><i class="fas fa-tools"></i> Manutenção e retrofit de painéis</li>
+                <li><i class="fas fa-code"></i> Programação de CLP e IHM</li>
+                <li><i class="fas fa-user-cog"></i> Consultoria técnica especializada</li>
+            </ul>
+        </section>
+        <section id="diferenciais">
+            <h2>Diferenciais</h2>
+            <div class="diferenciais-grid">
+                <div class="diferencial-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Segurança</h3>
+                    <p>Projetos seguindo normas técnicas e máxima proteção.</p>
+                </div>
+                <div class="diferencial-item">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Inovação</h3>
+                    <p>Uso de tecnologias modernas para automação eficiente.</p>
+                </div>
+                <div class="diferencial-item">
+                    <i class="fas fa-user-tie"></i>
+                    <h3>Profissionalismo</h3>
+                    <p>Equipe qualificada e atendimento personalizado.</p>
+                </div>
+                <div class="diferencial-item">
+                    <i class="fas fa-clock"></i>
+                    <h3>Pontualidade</h3>
+                    <p>Entrega dos projetos dentro do prazo combinado.</p>
+                </div>
+            </div>
+        </section>
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>Somos especialistas em soluções de automação e montagem de painéis elétricos, oferecendo qualidade, segurança e inovação para sua empresa.</p>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <div class="contato-info">
+                <p><a href="mailto:Projetosmdautomacao@gmail.com" class="contato-icone" title="E-mail"><i class="fas fa-envelope"></i> Projetosmdautomacao@gmail.com</a></p>
+                <p><a href="fundador.html" class="contato-icone" title="Fundador"><i class="fas fa-user-tie"></i> Diogo Araujo</a></p>
+            </div>
+            <form id="form-contato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div id="mensagem-sucesso" style="display:none;">Mensagem enviada com sucesso!</div>
+        </section>
+    </main>
+    <footer>
+        <div class="container footer-flex">
+            <div>
+                <p>&copy; 2026 Projetos e Automação. Todos os direitos reservados.</p>
+            </div>
+            <div class="footer-social">
+                <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://wa.me/553488593647" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
